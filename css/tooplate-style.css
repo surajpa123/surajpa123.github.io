@@ -471,7 +471,8 @@ b, strong {
 @media (min-width: 1270px) {
   .owl-theme .owl-dots {
     position: relative;
-    bottom: 50px;
+    bottom: 0px;
+    top: 0px;
   }
 }
 @media (max-width: 991px) {
@@ -518,6 +519,7 @@ b, strong {
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 3px 20px;
   }
+
 }
 @media (max-width: 580px) {
 	.animated-info {
@@ -535,6 +537,7 @@ b, strong {
     display: block;
     margin: 10px 0;
   }
+
 
   .owl-theme .owl-nav {
     display: none;
@@ -570,4 +573,41 @@ b, strong {
     display: inline-block;
     vertical-align: top;
   }
+
+  
+
 }
+
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for medium screens go here */
+  #purple{
+    max-height: 700px;
+   }
+
+   .owl-theme .owl-dots {
+    position: relative;
+    bottom: 0px;
+    top: -250px;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* Styles for small screens go here */
+
+ 
+ 
+   .owl-theme .owl-dots {
+    position: relative;
+    bottom: 0px;
+    top: -300px;
+  }
+   #purple{
+    max-height: 600px;
+   }
+
+}
+
+
