@@ -309,7 +309,7 @@ b, strong {
   background: #0d0c15;
   color: #ffffff;
 }
-.dark-mode .feature-card .uil,
+.dark-mode .project-info .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
 .dark-mode .color-mode {
@@ -630,6 +630,7 @@ b, strong {
   box-sizing: border-box;
   margin-bottom: 25px;
   padding: 10px;
+  border: none;
 
 }
 
@@ -642,6 +643,5 @@ b, strong {
 
 .dark-mode .Stats {
   filter: invert(1); /* Invert the colors for dark mode */
-  background-color: #333; /* Dark background color */
   /* color: #fff; Light text color */
 }
