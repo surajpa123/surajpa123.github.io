@@ -611,3 +611,37 @@ b, strong {
 }
 
 
+.containerGit{
+  /* border: 1px solid red; */
+      max-width: 1000px;
+      margin: auto;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+}
+
+
+
+.github-stats, .current-streak {
+  /* border: 1px solid blue; */
+  width: 100%; /* Adjust the width as needed */
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  padding: 10px;
+
+}
+
+
+@media only screen and (min-width: 600px) {
+  .github-stats, .current-streak {
+    width: 48%; /* Adjust the width as needed for larger screens */
+  }
+}
+
+.dark-mode .Stats {
+  filter: invert(1); /* Invert the colors for dark mode */
+  background-color: #333; /* Dark background color */
+  /* color: #fff; Light text color */
+}
