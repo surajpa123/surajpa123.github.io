@@ -645,3 +645,21 @@ b, strong {
   filter: invert(1); /* Invert the colors for dark mode */
   /* color: #fff; Light text color */
 }
+
+
+.skill{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill > div{
+  padding: 5px;
+}
+
+.skill img{
+  display: block;
+  margin: auto;
+  object-fit: cover;
+}
